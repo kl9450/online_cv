@@ -1,0 +1,59 @@
+html,body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  background-image: url("https://mgcreativedesign.files.wordpress.com/2014/11/website-design-background.png");
+  background-repeat:no-repeat;
+  background-position: bottom;
+  background-attachment:fixed;
+  margin: 0 7%;
+}
+
+p, li{
+  font: 1.3em Arial;
+  color: black;
+}
+h1 {
+  font: 2.5em Arial;
+  color: #F20075;
+}
+h2 {
+  font: 2em Arial;
+  color: blue;
+}
+img{
+  border-radius:50%; /*This makes my picture appear round*/
+}
+a:link {/*this styles my link*/
+  font-family:Arial;
+  font size:4.4;
+  color: blue;
+  text-decoration: none;
+}
+a:visited{/*this is how my link will appear after it has been clicked on.*/
+  color:purple;
+  font size:4.4;
+}
+a:hover { /*this is how my link will appear when I move my mouse over it.*/
+background-color: white;
+font-weight: bold;
+}
+nav a{ /*This is all my styling for my navigation bar.*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: yellow;
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+.heading{
+  padding:50px
+}
