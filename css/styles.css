@@ -73,6 +73,7 @@ a:focus {
 .school {
 	background-color: #66CCFF;
 }
+
 .description {
 	padding-right: 400px;
 	font-size: 1.5em; 
@@ -83,6 +84,9 @@ h1 {
 	font-size: 3em;	
 }
 
+.shadowing{
+	background-color: #66CCFF;
+}
 h2 {
 	font-size: 2.3em;
 }
