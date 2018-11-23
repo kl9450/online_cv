@@ -100,3 +100,41 @@ p {
 	font-size: 1.5em;
 }
 
+/* container only */
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      /* grid-template-rows: 100px 200px 300px; */
+
+      /* add gaps between items */
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+
+      /* aligning items inside the grid */
+      /* justify-content: center; */
+
+
+      background-color: white;
+      padding: 10px;
+      border: 1px solid black;
+    }
+
+    .work1 {
+      grid-column: 1 / span 3; 
+      /* grid-area: 1 / 1 / 1 /4; */
+    }
+
+    .work2 {
+      grid-area: 2 / 1 / 5 / 2;
+    }
+    .work3 {
+      grid-area: 2 / 2 / 5 / 3;
+    }
+
+    .grid-item {
+      background-color:#66CCFF;
+      border: 1px solid black;
+      padding: 20px;
+      font-size: 1.5em;
+      text-align: center;
+    }
