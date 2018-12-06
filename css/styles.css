@@ -73,6 +73,7 @@ a:focus {
 /*}*/
 .home {
 	background-image: url(../images/Web-Development-Banner-1.jpg);
+	background-repeat: no-repeat;
 	text-align: center;
 	width: 100%;
 	height: 100%;
@@ -80,7 +81,8 @@ a:focus {
 	position: relative;
 }
 .heading {
-	padding: 160px;
+	padding: 1.067em;
+	line-height: 0.7;
 }
 .name {
 	color: #F9545B;
