@@ -138,7 +138,7 @@ a:focus {
 }
 
 .description {
-	padding-right: 400px;
+	padding-right: 10px;
 	font-size: 1.5em; 
 }
 
@@ -200,8 +200,12 @@ p {
       padding: 20px;
       font-size: 1.5em;
       text-align: center;
-    }
-
+	}
+	
+	.grid-container2 {
+		display: grid;
+		grid-template-rows: auto auto;
+	}
     .skill{
 	background-color: #CBDFE8;
 	right: 180px;
