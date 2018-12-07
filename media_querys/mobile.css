@@ -1,0 +1,188 @@
+ @media only -moz-full-screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 10;
+    }
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.000em;
+        line-height: 1.50;
+        color: black;
+        background-color: white;
+        position: relative;
+    }
+    
+    .menu {
+        font-size: 1.200em;
+        background-color: #030d31;
+        border: 0.067em solid rgba(0, 0, 0, 0.2);
+        padding-bottom: 0.667em;
+    }
+    
+    .main-nav {
+        list-style-type: none;
+        display: none;
+    }
+    
+    .nav-links, 
+    .logo {
+        text-decoration: none;
+        color: rgba(red, green, blue, alpha)
+    }
+    
+    .main-nav li {
+        text-align: center;
+        margin: 1.000em;
+    }
+    
+    .logo {
+        display: inline-block;
+        font-size: 1.467em;
+        margin-top: 0.667em;
+        margin-left: 1.333em;
+    }
+    
+    .navbar-toggle {
+        position: absolute;
+        top: 0.667em;
+        right: 1.333em;
+        cursor: pointer;
+        color: rgba(255, 255, 255, alpha);
+        font-size: 1.600em;
+    }
+    
+    .active {
+        display: block;
+    }
+    a:hover {
+             background-color: blue;
+             color: white;
+             text-decoration: underline;
+         }
+    a:focus {
+        background-color: blue;
+        color: white;
+        text-decoration: underline;
+    }	 
+        
+    .home {
+        background-image: url(../images/pexels-photo-777001.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        /* min-height: 100%; */
+        position: relative;
+    }
+    .heading {
+        padding: 1.067em;
+        line-height: 0.7;
+    }
+    .name {
+        color: white;
+        font-size: 3.5em;
+    }
+    
+    .title {
+        color: grey;
+    }
+    
+    .intro {
+        background-color: #CBDFE8;
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        position: relative;
+    } 
+    
+    .school {
+        background-color: #CBDFE8;
+    }
+    
+    .description {
+        padding-right: 400px;
+        font-size: 1.5em; 
+    }
+    
+    h1 {
+        color: #FF4C3B;
+        font-size: 3em;	
+    }
+    
+    .shadowing {
+        background-color: #CBDFE8;
+    }
+    h2 {
+        font-size: 2.3em;
+    }
+    
+    h3 {
+        color: #000000;
+        font-size: 2em;
+    }
+    
+    p {
+        font-size: 1.5em;
+    }
+    
+    /* container only */
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          /* grid-template-rows: 100px 200px 300px; */
+    
+          /* add gaps between items */
+          grid-column-gap: 10px;
+          grid-row-gap: 10px;
+    
+          /* aligning items inside the grid */
+          /* justify-content: center; */
+    
+    
+          background-color: #CBDFE8;
+          padding: 10px;
+          border: 1px solid black;
+        }
+    
+        .work1 {
+          grid-column: 1 / span 3; 
+          /* grid-area: 1 / 1 / 1 /4; */
+        }
+    
+        .work2 {
+          grid-area: 2 / 1 / 5 / 2;
+        }
+        .work3 {
+          grid-area: 2 / 2 / 5 / 3;
+        }
+    
+        .grid-item {
+          background-color:#4FD5D6;
+          border: 1px solid black;
+          padding: 20px;
+          font-size: 1.5em;
+          text-align: center;
+        }
+    
+        .skill{
+        background-color: #CBDFE8;
+        right: 180px;
+        }
+    
+        .contacts{
+        background-color: #CBDFE8;
+        }
+    a>img {
+        hidden;
+        transition: opacity .3s linear;
+    }
+    a>img:hover {
+        opacity: .65;
+    }
+  
+}

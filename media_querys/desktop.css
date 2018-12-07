@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 4.667em;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 2.000em;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li{
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 2.667;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .navbar-toggle {
+        diplay: none; 
+    }
+
+    .logo:hover,
+    .nav-links: hover {
+        color: rgba(255, 254, 567, 1);
+    }
+}
